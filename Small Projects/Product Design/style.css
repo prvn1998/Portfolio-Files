@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+.mini-circle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    text-align: center;
+    position: absolute;
+    z-index: 99999;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+#hero{
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+#nav nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+#heading{
+    margin-top: 40px;
+}
+#heading h1{
+    font-family: 'DM Sans', sans-serif;
+    line-height: 0.8;
+    font-size: 8vw;
+    opacity: 0.7;
+    margin-left: 40px;
+}
+#head2 {
+    width: fit-content;
+}
+#head2 h1{
+    margin-left: 140px;
+}
+#head2 h5{
+    text-align: right;
+    opacity: 0.7;
+    font-size: 17PX;
+    text-transform: uppercase;
+}
+.smallheading{
+    margin-top: 100px;
+    padding-right: 30px;
+}
+.smallheading h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: .5vw;
+}
+.hyperlink{
+    display: flex;   
+    justify-content: space-between; 
+    margin: 0px 40px;
+    text-transform: uppercase;
+    margin-top: 300px;
+}
+.hyperlink a{
+    text-decoration: none;
+    color: white;
+}
+.hyperlink span a{
+    padding: 4px 8px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
+/* second section for the mid-setion */
+.mid-section{
+    width: 100%;
+    height: 40vw;
+    background-color: black;
+    padding-top: 100px;
+    padding-left: 40px;
+    font-family: 'DM Sans', sans-serif;
+}
+.element{
+    width: 80%;
+    border-top: 2px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.element h1{
+    font-size: 6vw;
+    color: white;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.element h4{
+    color: white;
+    opacity: 0.7;
+}
+.element-bottom{
+    border-bottom: 2px solid #888;
+}
+.element img{
+    height: 140%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+/* start for about section */
+.about{
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 50px;
+}
+
+.about .image img{
+    width: 200px;
+    border-radius: 50%;
+}
+.about .about-content{
+    width: 40vw;
+    color: white;
+    opacity: 0.7;
+}
+.about-content p{
+    font-size: 1vw;
+}
+.about-content .btn{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: #888;
+    background-color: black;
+    outline: white;
+}
+
+/* start subscribe from here */
+.subscribe{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    background-color: black;
+    padding-left: 40px;
+    padding-bottom: 150px;
+}
+.subscribe h5, h4{
+    opacity: 0.7;
+}
+.subscribe h4 a{
+    text-decoration: none;
+    color: #888;
+    opacity: 0.7;
+}
+
+/* start footer from here */
+.footer{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+    background-color: black;
+}
+.footer .year-socail{
+    text-transform: uppercase;
+    font-size: 1vw;
+    display: flex;
+    gap: 50px;
+    color: #888;
+}

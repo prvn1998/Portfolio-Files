@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+body{
+    background-color: rgb(244, 244, 148);
+}
+#containor{
+    border: 5px solid black;
+    width: 500px;
+    height: 300px;
+    margin: 200px auto;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.counts{
+    text-align: center;
+    margin: 25px 0px;
+}
+.count p{
+    font-size: 9rem;
+}
+button{
+    outline: gray;
+    padding: 8px 12px;
+}
+button:hover{
+    background-color: rgb(147, 117, 231);
+}
+h2{
+    font-size: 9rem;
+}
