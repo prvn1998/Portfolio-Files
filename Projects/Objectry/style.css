@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.top-offer{
+    background-color: rgb(226, 226, 226);
+    padding: 7px 0px;
+    text-align: center;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 15px 15px; 
+}
+
+.main-menu{
+    display: flex;
+}
+.main-menu div{
+    margin-right: 20px;
+}
+.main-menu1{
+    display: flex;
+}
+.main-menu1 div{
+    margin-left: 10px;
+}
+
+/* first section */
+
+.row{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.col-50{
+    width: 50%;
+}
+#col-501{
+    background-color: #989086;
+}
+#col-50 a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;  
+    color: black;
+}
+#col-50{
+    margin: 20px 0px 0px 20px;
+}
+/* idea Content */
+.idea-content{
+    padding: 20px 20px;
+}
+
+.everyday{
+    padding: 5px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.fea-ture{
+    margin: 50px 10px 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row1{
+    display: flex;
+}
+.col-33{
+    width: 33.25%;
+    border: 1px solid black;
+}
+
+.row2{
+    display: flex;
+}
+.col-3{
+    border: 1px solid black;
+    width: 33%;
+    padding: 15px;
+}
+.btn1{
+    padding: 10px 65px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    border: 1px solid black;
+}
+.btn2{
+    padding: 10px 65px;
+    font-size: 15px;
+    background-color: black;
+    border: none;
+    border: 1px solid black;
+    color: white;
+
+}
+.tube{
+    margin-top: 500px;
+    margin-left: 10px;
+}
+
+.tube h4, p{
+    margin-bottom: 20px;
+}
+
+.under-line{
+    border-bottom: 1px solid black;
+}
+
+button{
+    margin-top: 20px;
+}
+.plus{
+    font-size: 25px;
+}
+
+.flex-me{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 20px 20px;
+}
+
+.bor-der{
+    border-bottom: 1px solid black;
+}
+
+.row4{
+    display: flex;
+}
+.col-25{
+    border: 1px solid black;
+}
+
+.row5{
+    display: flex;
+}
+
+.col-4{
+    border: 1px solid black;
+    width: 25%;
+    padding: 15px;
+}
+
+.logos{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.logos img{
+    margin-right: 40px;
+}
+.FEATURED h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.row-5{
+    display: flex;
+}
+.col-5{
+    width: 20%;
+}
+.col-5 img{
+    width: 300px; 
+    height: 300px;
+}
+
+/* stay-update */
+
+.stay-update{
+    display: flex;
+    justify-content: space-between;
+}
+.stay-update{
+    background-color: #030303;
+    color: #ffffff;
+    padding: 20px 20px;
+    align-items: center;
+}
+.stay-sub{
+    font-size: 25px;
+    font-weight: 200;
+}
+input{
+    width: 150px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+::placeholder {
+    color: white;
+    font-size: 15px;
+  }
+.sub-cribe{
+    border-bottom: 1px solid white; 
+    padding-bottom: 5px;   
+}
+
+/* footer  */
+
+.row-5foot{
+    display: flex;
+}
+.col-5foot{
+    width: 20%;
+    border: 1px solid black;
+    font-family: adieu;
+    padding: 20px 0px 40px 20px;
+    margin-bottom: 150px;
+}
+
+.col-5foot a{
+    text-decoration: none;
+    color: black; 
+}
+
+.col-5foot img{
+    padding-bottom: 80px;
+}
+.col-5foot i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.select{
+    text-align: end;
+    padding: 30px;
+}

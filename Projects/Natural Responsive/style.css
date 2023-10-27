@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 40px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    outline: none;
+    border-radius: 60px;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    background: url(./image/pexels-jane-doan-1099680.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    border-radius: 60px;
+    background-color: rgb(248, 26, 92);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.btn1:hover{
+    background-color: rgb(173, 21, 66);
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -1px -2px 8px 2px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+
+.main-2{
+    background: url(./image/bg-2.avif)no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main-2 h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(255, 85, 0);
+    font-family: 'Pacifico', cursive;
+}
+.main-2 p{
+    color: white;
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+.about .show-dow{
+    box-shadow: 10px 10px 5px 0px rgba(232,177,232,1);
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+
+.news p{
+    margin: 0px;
+}
+
+.so-cial i {
+    margin-right: 10px;
+    font-size: 25px;
+}

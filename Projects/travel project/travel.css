@@ -1,0 +1,460 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.head-1 {
+  background-color: rgba(28, 28, 28, 0.3);
+  width: 100%;
+  position: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 0px 100px;
+}
+
+.social-icon {
+  display: flex;
+}
+
+.so-media i {
+  padding-right: 10px;
+  margin: 7px 0px;
+}
+.so-media {
+  border-right: 1px solid white;
+}
+.login-sign{
+  margin: 7px 0px;
+}
+.login-sign i {
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
+/* dropdown trying */
+.btn-drop{
+  padding: 0px;
+  border: none;
+  font-size: 15px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.content-link{
+  display: none;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+  left: -30px;
+  top: 85px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content-link a{
+  color: white;
+  padding: 12px 0px;
+  display: block;
+  text-decoration: none;
+}
+
+.content-link a:hover{
+  background-color: #fc9f1c;
+  transition: 0.3s;
+}
+.dropdown:hover .content-link{
+  display: block;
+}
+/* dropdown trying */
+
+/* Section for bottom part of header */
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px;
+}
+
+.menu {
+  display: flex;
+  font-size: 13px;
+  color: white;
+}
+.menu .dropdown {
+  margin-left: 60px;
+  padding: 35px 0px;
+}
+
+/* Section 3 for the Images */
+
+.img img {
+  width: 100%;
+  height: 725px;
+}
+
+.img-content{
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    color: white;
+}
+.per-fect{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.asia{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.more{
+    border: 3px solid #fc9f1c;
+    padding: 10px 25px;
+}
+.more:hover{
+  background-color: #fc9f1c;
+  transition: 0.3s;
+}
+
+/* Section 4 for the icons */
+
+.plane i{
+  rotate: -50deg;
+}
+.flight-trust{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    
+}
+.flight-trust div i{
+    font-size: 20px;
+}
+
+.i-c{
+  display: flex;
+  align-items: center;
+  padding: 0px 70px;
+}
+
+.i-c div i{
+  font-size: 45px;
+  color: #fc9f1c;
+  padding-right: 25px;
+}
+
+.i-content{
+  font-weight: bold;
+  color: #4e4e4e;
+}
+.i-c .i-content span{
+  font-weight: normal;
+}
+
+/* Section for the sun image  */
+.container-sun{
+    position: relative;
+}
+.image-sun img {
+  width: 100%;
+  height: 350px;
+}
+
+.find-adven{
+  position: absolute;
+  top: 100px;
+  margin-left: 70px;
+}
+.big-font{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.form-container .key-desti{ 
+    display:flex;
+    color: white;
+}
+.key-desti div{
+  font-size: 15px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+.input-select, input, select{
+    margin-right: 10px;
+    width: 250px;
+    height: 40px;
+    color: #4e4e4e;
+}
+.find-btn{
+  padding-top: 28px;
+}
+.find-btn button{
+    padding: 14px 40px;
+    color: white;
+    background-color: #fc9f1c;
+    border: none;
+    border-radius: 2px;
+}
+.find-btn button:hover{
+  background-color: #4e4e4e;
+  transition: 0.4s ease-out;
+}
+
+/* Section of Wolrd Image */
+.world-main{
+  display: flex;
+  justify-content: center;
+  padding: 70px 80px;
+}
+
+.wolrd-img img{
+    width: 700px;
+}
+.wolrd-content h2{
+    margin-bottom: 12px;
+    
+}
+.wolrd-content{
+    color: #4e4e4e;
+    margin-left: 20px;
+}
+
+.border-span{
+  width: 40px;
+  background-color: #fc9f1c;
+  border: 2px solid #fc9f1c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.wolrd-content p{
+  font-size: 15px;
+  line-height: 20px;
+}
+.country-trip{
+  padding-top: 20px;
+}
+.country-trip a:hover{
+    color: #fc9f1c;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    transition: 0.1s;
+}
+.country-trip a sup em{
+  font-size: 12px;
+}
+.country-trip a{
+  text-decoration: none;
+  color: #4e4e4e;
+  padding-right: 20px;
+}
+.country-a{
+  padding-bottom: 20px;
+}
+
+/* Section for the 3 image Card */
+/* position issue in the content */
+
+.img-cards img{
+    max-width: 100%;
+    height: auto;
+}
+.img-cards{
+  position: relative;
+}
+.text-banner{
+  position: absolute;
+  color: white;
+  bottom: 300px;
+}
+
+.text-banner h4{
+    right: 200px;
+}
+.text-banner h4{
+    font-size: 30px;    
+}
+
+/* section for the 2 flex */
+.container-emma{
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.emma-content .emma{
+  border: 1px solid #fc9f1c;
+  padding: 40px;
+  margin: 100px 100px 20px 100px;
+}
+.emma p{
+  color: #4e4e4e;
+}
+.emma span{
+  color: #fc9f1c;
+}
+
+.emma-content .emma p{
+  line-height: 45px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.container-emma .emma-image img{
+  width: 800px;
+  height: 600px;
+}
+.emma-pp{
+   display: flex;
+   margin-left: 100px;
+   margin-top: 0px;
+}
+.emma-pp img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.emma-pp span{
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #fc9f1c;
+}
+
+/* Section for the cards and trip inforamation */
+.main-container{
+  display: flex;
+  justify-content: center;
+}
+
+.ocean-image img{
+    width: 450px;
+}
+.container-card{
+  width: 450px;
+  margin: 50px;
+  box-shadow: 10px 10px lightblue;
+}
+.content-flex{
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #4e4e4e;
+  border-right: 1px solid #4e4e4e;
+  border-bottom: 1px solid #4e4e4e;
+}
+.ocean-content{
+    margin-left: 10px;
+}
+.ocean-content h2{
+  color: #585858;
+  margin: 15px 0px;
+}
+.ocean-content p{
+    color: #4e4e4e;
+    margin-bottom: 15px;
+}
+.ocean-content .star-rate{
+  color: #fc9f1c;
+  font-size: 12px;
+}
+.card-price{
+  margin-right: 10px;
+}
+.star-rate span{
+    color: #4e4e4e;
+}
+.star-rate{
+    margin-bottom: 20px;
+}
+
+/* section for footer  */
+.container-foot{
+    display: flex;
+    background: #202020;
+    padding: 50px 0px;
+    padding-right: 50px;
+    justify-content: center;
+}
+.footer-p {
+  color: #a0a0a0;
+}
+.foot-content1{  
+  color: white;
+  padding-right: 100px;
+}
+.foot-content1 img{
+  margin-top: 20px;
+}
+.foot-content2{  
+  color: white;
+  padding-right: 100px;
+}
+.foot-content3{  
+  color: white;
+}
+
+.foot-content p{
+  color: #a0a0a0;
+}
+.foot-content2 span a{
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 18px;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.foot-content2 a:hover{
+  color: #fc9f1c;
+  text-decoration: underline;
+}
+.foot-content2 a:hover{
+    transition: 0.2s;
+}
+.col-33{
+  width: 33.34%;
+}
+.row{
+  display: flex;
+}
+.img-cards{
+  overflow: hidden;
+}
+.img-cards .overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transform: scale(0);
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} 
+.img-cards:hover .overlay{
+  transform: scale(1);
+}
+
+.img-cards img{
+  transition:  all 1s;
+}
+.img-cards:hover img{
+  transform: scale(1.2);
+}

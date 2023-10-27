@@ -1,0 +1,184 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  line-height: 1;
+  background-color: rgb(16, 35, 52);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* manu list */
+.menu-center1 div ul li a {
+  color: white;
+}
+
+.menu-center1 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.menu-center1 div ul li {
+  padding: 10px 5px;
+  color: white;
+}
+.menu-center1 div ul li:hover {
+  border-bottom: 2px solid red;
+}
+.company-logo a{
+    font-size: 30px;
+}
+/* manu list end */
+
+/* background image */
+.main {
+  background: url(./image/tree.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+
+.text-deco {
+  padding-top: 250px;
+}
+
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.scroll-down:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+/* background image end  */
+
+/* inspiration */
+.inspire {
+  background: linear-gradient(90deg, red 30%, #1b32c9 70%, #33f208);
+  font-size: 100px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.font-size {
+  font-size: 30px;
+}
+.font-size1 {
+  font-size: 40px;
+  color: white;
+}
+/* inspiration end  */
+
+/* newton apple boy */
+.inspire1 {
+  background: linear-gradient(90deg, red 30%, #1b32c9 70%, #33f208);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.align-middle {
+  display: flex;
+  align-items: center;
+}
+.align-middle p {
+  width: 250px;
+  margin-left: 100px;
+  text-align: left;
+}
+.align-middle1 {
+  display: flex;
+  align-items: center;
+}
+.align-middle1 p {
+  width: 300px;
+  margin-left: 150px;
+  text-align: left;
+}
+/* newton apple boy end  */
+
+/* school but and flying-boy */
+
+.font-normal {
+  font-size: 40px;
+  color: white;
+}
+.font-size2 {
+  font-size: 100px;
+  color: white;
+}
+
+.remove-mp {
+  line-height: 1;
+}
+
+/* what inspire you */
+.what-inspire {
+  color: white;
+}
+.btn-center {
+  text-align: center;
+}
+.btn-center button {
+  color: rgb(218, 218, 218);
+  background-color: rgb(13, 54, 90);
+  margin: 5px 5px;
+  outline: none;
+  padding: 3px 20px;
+}
+.btn-center button:hover {
+  background-color: white;
+  color: rgb(13, 54, 90);
+}
+
+.paracolor p {
+  color: white;
+  line-height: 0.1;
+}
+.share-btn button {
+  color: rgb(13, 54, 90);
+  background-color: white;
+  padding: 2px 35px;
+  border-radius: 15px;
+  outline: none;
+}
+.share-btn button:hover {
+  background-color: rgb(66, 28, 34);
+  color: rgb(250, 251, 253);
+}
+/* what inspire you end */
+
+/* footer car */
+.anchor-normal {
+  color: black;
+  text-decoration: none;
+}
+/* footer car end */
+
+.hidden {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translateX(-100%);
+}
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
